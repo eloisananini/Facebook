@@ -11,19 +11,20 @@
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Facebook.css">
 
   </head>
 
   <body>
     <div class="container-fluid">
-      <div class="row" style="background-color: #3b5998;">
+      <div class="row" style="background-color: #3b5998; height: 90px;">
         <!-- Coluna do título "Facebook"-->
         <div class="col">
           <h4 class="p-4" style="font-family: inherit; color: white; font-size: 40px; margin-left: 400px;"><b>facebook</b></h4>
         </div>
 
         <!--Coluna do usuário-->
-        <div class="col" style="margin-left: 250px;">
+        <div class="col" style="margin-left: 250px; margin-top: -5px;">
           <form>
             <div class="form-group mt-3" style="margin-left: 150px; font-size: 13px;">
               <label for="exampleInputEmail1" style="color: white;">Email ou telefone</label>
@@ -31,22 +32,54 @@
             </div>
           </form>
         </div>
-
         <!--Coluna da senha-->
-        <div class="col" style="margin-left: -15px;">
+        <div class="col" style="margin-left: -15px; margin-top: -5px;">
           <form>
-            <div class="form-group mt-3" style="font-size: 13px;">
+            <div class="form-group mt-3" style="font-size: 13px; margin-left: -180px;">
               <label for="exampleInputPassword1" style="color: white;">Senha</label>
               <input type="password" class="form-control" id="exampleInputPassword1" style="font-size: 10px; border-radius: 0px; border-color: black; height: 24px; width: 164px;">
             </div>
-            <small id="emailHelp" class="form-text text-muted" style="margin-top: -13px; color: white"><a href="">Esqueceu a senha?</a></small>
-            
+            <small id="emailHelp" class="form-text text-muted" style="margin-top: -13px; color: #9cb4d8; margin-left: -180px;"><a href="">Esqueceu a senha?</a></small>
           </form>
+        </div>
+
+        <div class="col" style="margin-left: -520px; margin-top: 35px;">
+          <button type="button" class="btn btn-primary btn-sm text-center" style="width: 55px; height: 24px; background-color: #4267b2; font-family: inherit; border-color: #29487d;">Entrar</button>
         </div>
       </div>
 
-      <div class="row">
-        
+      <div class="row" style="background: linear-gradient(white,#D3D8E8);">
+        <div class="col pt-5" style="margin-left: 410px; margin-right: 60px;">
+          <h4 class="text-left">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h4>
+          <br>
+          <img src="Imagens/Mundo.png">
+        </div>
+
+        <div class="col pt-3" style="margin-right: 410px;">
+          <h1>Abra uma conta</h1>
+          <h5>É gratuito e sempre será.</h5>
+          <br>
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Sobrenome" style="margin-left: -20px;">
+              </div>
+            </div>
+
+            <div class="row">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email ou celular" style="width: 425px; margin-left: 15px; margin-top: 10px;">
+            </div>
+
+            <div class="row">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Nova senha" style="width: 425px; margin-left: 15px; margin-top: 10px;">
+            </div>
+          </form>
+
+          <h5 class="mt-3">Data de nascimento</h5>
+        </div>
       </div>
 
       <div class="row">
