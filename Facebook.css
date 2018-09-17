@@ -13,3 +13,8 @@ a:hover {
 .link:hover {
 	 color: #365899;
 }
+
+.rs:hover {
+background-color: #365899;
+padding: 4px;
+}
