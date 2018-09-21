@@ -23,4 +23,18 @@ input-placeholder {
 	font-family: inherit;
 }
 
-i:hover 
+.aa:link {
+	color: #365899;
+}
+
+.aa:active {
+	color: #365899;
+}
+
+.aa:visited {
+	color: #365899;
+}
+
+.bb {
+	word-spacing: 1px;
+}
