@@ -16,5 +16,11 @@ a:hover {
 
 .rs:hover {
 background-color: #365899;
-padding: 4px;
+padding: 3px;
 }
+
+input-placeholder {
+	font-family: inherit;
+}
+
+i:hover 
