@@ -38,3 +38,11 @@ input-placeholder {
 .bb {
 	word-spacing: 1px;
 }
+
+a.help {
+	color: #365899; 
+	font-family: Arial; 
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
