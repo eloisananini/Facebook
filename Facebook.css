@@ -55,8 +55,8 @@ a.help2 {
 }
 
 .help2:hover {
-	padding-top: 15px;
-	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-bottom: 11px;
 	padding-right: 22px;
 	background-color: #e9eaed;
 }
@@ -70,8 +70,20 @@ a.help3 {
 }
 
 .help3:hover {
-	padding-top: 15px;
-	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-bottom: 11px;
 	padding-right: -20px;
+	background-color: #e9eaed;
+}
+
+a.help {
+	color: #365899; 
+	font-family: Arial; 
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.helps:hover {
 	background-color: #e9eaed;
 }
